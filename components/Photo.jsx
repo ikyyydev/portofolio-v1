@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-import HeaderPhoto from "/public/assets/photo.png";
+import HeaderPhoto from "/public/assets/header-photo1.png";
 
 const Photo = () => {
   return (
@@ -22,7 +22,7 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute top-4"
         >
           <Image
             src={HeaderPhoto}

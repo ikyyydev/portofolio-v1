@@ -1,11 +1,5 @@
 import Link from "next/link";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-  FaYoutube,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const sosmed = [
   {

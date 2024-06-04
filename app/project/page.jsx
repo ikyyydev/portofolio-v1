@@ -23,7 +23,7 @@ const projects = [
     category: "fullstack Web",
     title: "project 1",
     description:
-      "Portal pekerjaan berbasis MERN stack untuk mencari, melamar, dan menemukan pekerjaan impian anda dengan mudah dan cepat",
+      "MERN stack-based job portal for easily searching, applying, and finding your dream job quickly and efficiently.",
     stack: [
       { name: "node js" },
       { name: "express js" },
@@ -41,7 +41,7 @@ const projects = [
     category: "frontend Web",
     title: "project 2",
     description:
-      "Platform blog simpel dengan antarmuka menarik, cocok bagi pengguna yang ingin berbagi konten dengan mudah.",
+      "a simple blogging platform with an attractive interface, perfect for users who want to share content easily.",
     stack: [{ name: "react js" }, { name: "javascript" }, { name: "css 3" }],
     image: "/assets/projects/02-frontend.png",
     live: "https://ikyy-blogapp.netlify.app/",
@@ -57,6 +57,22 @@ const projects = [
     image: "/assets/projects/03-frontend.png",
     live: "https://ikyy-wp-mekanik.netlify.app/",
     github: "",
+  },
+  {
+    num: "04",
+    category: "frontend Web",
+    title: "project 4",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim laboriosam asperiores voluptates praesentium, numquam laudantium.",
+    stack: [
+      { name: "next js" },
+      { name: "tailwind css" },
+      { name: "typescript" },
+      { name: "framer-motion" },
+    ],
+    image: "/assets/projects/04-frontend.png",
+    live: "https://ikyy-works.netlify.app/",
+    github: "https://github.com/ikyyydev/works-company",
   },
 ];
 

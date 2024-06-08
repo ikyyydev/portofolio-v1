@@ -1,6 +1,5 @@
 "use client";
 
-import { BsBootstrap } from "react-icons/bs";
 import {
   FaHtml5,
   FaCss3,
@@ -8,9 +7,28 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaGithub,
+  FaBootstrap,
+  FaSass,
 } from "react-icons/fa";
 
-import { SiTypescript, SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiTypescript,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiExpress,
+  SiVite,
+  SiFramer,
+  SiFirebase,
+  SiMysql,
+  SiMongodb,
+  SiJest,
+  SiReactrouter,
+  SiReacthookform,
+  SiReactquery,
+  SiReacttable,
+  SiRedux,
+} from "react-icons/si";
 
 // about data
 const abouts = {
@@ -116,24 +134,80 @@ const skills = {
       name: "typescript",
     },
     {
+      icon: <FaNodeJs />,
+      name: "node js",
+    },
+    {
+      icon: <SiExpress />,
+      name: "express js",
+    },
+    {
       icon: <FaReact />,
       name: "react js",
+    },
+    {
+      icon: <SiReactrouter />,
+      name: "react router",
+    },
+    {
+      icon: <SiReacthookform />,
+      name: "react hook form",
+    },
+    {
+      icon: <SiReactquery />,
+      name: "react query",
+    },
+    {
+      icon: <SiReacttable />,
+      name: "react table",
     },
     {
       icon: <SiNextdotjs />,
       name: "next js",
     },
     {
+      icon: <SiMongodb />,
+      name: "mogno db",
+    },
+    {
+      icon: <SiFirebase />,
+      name: "firebase",
+    },
+    {
+      icon: <SiMysql />,
+      name: "mysql",
+    },
+    {
       icon: <SiTailwindcss />,
       name: "tailwind css",
     },
     {
-      icon: <BsBootstrap />,
+      icon: <FaBootstrap />,
       name: "bootstrap",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node js",
+      icon: <FaSass />,
+      name: "sass",
+    },
+    {
+      icon: <SiFramer />,
+      name: "framer motion",
+    },
+    {
+      icon: <SiVite />,
+      name: "vite js",
+    },
+    {
+      icon: <SiRedux />,
+      name: "redux",
+    },
+    {
+      icon: <SiJest />,
+      name: "jest",
+    },
+    {
+      icon: <FaGithub />,
+      name: "github",
     },
     {
       icon: <FaFigma />,

@@ -104,8 +104,8 @@ const educations = {
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem saepe blanditiis necessitatibus tenetur. Error sed natus cumque.",
   items: [
     {
-      institution: "SMK Binus Slawi",
-      degree: "Vocational High School",
+      institution: "SMAN 1 Pangkah",
+      degree: "High School",
       duration: "2020 - 2023",
     },
   ],

@@ -28,6 +28,7 @@ import {
   SiReactquery,
   SiReacttable,
   SiRedux,
+  SiShadcnui,
 } from "react-icons/si";
 
 // about data
@@ -178,6 +179,10 @@ const skills = {
       name: "mysql",
     },
     {
+      icon: <SiMongodb />,
+      name: "mongo db",
+    },
+    {
       icon: <SiTailwindcss />,
       name: "tailwind css",
     },
@@ -192,6 +197,10 @@ const skills = {
     {
       icon: <SiFramer />,
       name: "framer motion",
+    },
+    {
+      icon: <SiShadcnui />,
+      name: "shadcn ui",
     },
     {
       icon: <SiVite />,

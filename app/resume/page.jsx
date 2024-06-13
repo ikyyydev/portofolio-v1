@@ -179,10 +179,6 @@ const skills = {
       name: "mysql",
     },
     {
-      icon: <SiMongodb />,
-      name: "mongo db",
-    },
-    {
       icon: <SiTailwindcss />,
       name: "tailwind css",
     },

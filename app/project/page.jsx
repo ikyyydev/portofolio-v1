@@ -23,6 +23,24 @@ const projects = [
     category: "fullstack Web",
     title: "project 1",
     description:
+      "KyMeet is a video conferencing website that enables users to host virtual meetings, webinars, and online events. The website offers features such as video and audio, screen sharing, chat, and recording.",
+    stack: [
+      { name: "clerk" },
+      { name: "typescript" },
+      { name: "next js" },
+      { name: "tailwind css" },
+      { name: "radix ui" },
+      { name: "shadcn ui" },
+    ],
+    image: "/assets/projects/01-zoomclone.png",
+    live: "https://kymeet.vercel.app/",
+    github: "https://github.com/ikyyydev/zoom_clone",
+  },
+  {
+    num: "02",
+    category: "fullstack Web",
+    title: "project 2",
+    description:
       "MERN stack-based job portal for easily searching, applying, and finding your dream job quickly and efficiently.",
     stack: [
       { name: "node js" },
@@ -32,30 +50,19 @@ const projects = [
       { name: "mongo db" },
       { name: "tailwind css" },
     ],
-    image: "/assets/projects/01-fullstack.png",
+    image: "/assets/projects/02-fullstack.png",
     live: "https://mern-jobportal.netlify.app/",
     github: "https://github.com/ikyyydev/mern-jobportalapp",
-  },
-  {
-    num: "02",
-    category: "frontend Web",
-    title: "project 2",
-    description:
-      "a simple blogging platform with an attractive interface, perfect for users who want to share content easily.",
-    stack: [{ name: "react js" }, { name: "javascript" }, { name: "css 3" }],
-    image: "/assets/projects/02-frontend.png",
-    live: "https://ikyy-blogapp.netlify.app/",
-    github: "",
   },
   {
     num: "03",
     category: "frontend Web",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim laboriosam asperiores voluptates praesentium, numquam laudantium.",
-    stack: [{ name: "wordpress" }, { name: "elementor" }],
-    image: "/assets/projects/03-frontend.png",
-    live: "https://ikyy-wp-mekanik.netlify.app/",
+      "a simple blogging platform with an attractive interface, perfect for users who want to share content easily.",
+    stack: [{ name: "react js" }, { name: "javascript" }, { name: "css 3" }],
+    image: "/assets/projects/03-blogapp.png",
+    live: "https://ikyy-blogapp.netlify.app/",
     github: "",
   },
   {
@@ -64,13 +71,24 @@ const projects = [
     title: "project 4",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim laboriosam asperiores voluptates praesentium, numquam laudantium.",
+    stack: [{ name: "wordpress" }, { name: "elementor" }],
+    image: "/assets/projects/04-wp-mekanik.png",
+    live: "https://ikyy-wp-mekanik.netlify.app/",
+    github: "",
+  },
+  {
+    num: "05",
+    category: "frontend Web",
+    title: "project 5",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim laboriosam asperiores voluptates praesentium, numquam laudantium.",
     stack: [
       { name: "next js" },
       { name: "tailwind css" },
       { name: "typescript" },
       { name: "framer-motion" },
     ],
-    image: "/assets/projects/04-frontend.png",
+    image: "/assets/projects/05-works.png",
     live: "https://ikyy-works.netlify.app/",
     github: "https://github.com/ikyyydev/works-company",
   },
@@ -123,7 +141,7 @@ const Project = () => {
               {/* buttons */}
               <div className="flex items-center gap-4">
                 {/* live project button */}
-                <Link href={project.live}>
+                <Link href={project.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group ">
@@ -136,7 +154,7 @@ const Project = () => {
                   </TooltipProvider>
                 </Link>
                 {/* github project button */}
-                <Link href={project.github}>
+                <Link href={project.github} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group ">

@@ -105,8 +105,9 @@ const educations = {
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem saepe blanditiis necessitatibus tenetur. Error sed natus cumque.",
   items: [
     {
-      institution: "SMAN 1 Pangkah",
-      degree: "High School",
+      institution: "SMK Bina Nusa Slawi",
+      degree: "Vocational High School",
+      major: "Computer and Network Engineer",
       duration: "2020 - 2023",
     },
   ],
@@ -328,12 +329,15 @@ const Resume = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                          className="bg-[#232329] h-[200px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
                           <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+                          <h3 className="text-xl max-w-[280px] text-center lg:text-left">
                             {item.degree}
                           </h3>
+                          <p className="text-white/60 text-sm mb-3">
+                            {item.major}
+                          </p>
                           <div className="flex items-center gap-3">
                             {/* dot */}
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
